@@ -1,0 +1,490 @@
+fileFormatVersion: 2
+guid: 5a195929a898b2a449a39e678acd191c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 94
+        height: 98
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.032318115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8924af00f9f594a4c8fabca85d688e07
+      internalID: -505206050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 430
+        width: 94
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03462036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3574971c23307fc4d86f7e9f1d887322
+      internalID: 1348363405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 429
+        width: 100
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03448368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e4de8612add214797f0bbcb43eae3f
+      internalID: 324422351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_3
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 429
+        width: 100
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5, y: 0.035142913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17080a696ae649849811dda5ce99d278
+      internalID: 1448386098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_4
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 432
+        width: 94
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5150023, y: 0.028152581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a46d7cc6f95854f9b24e381ddd2dee
+      internalID: -248725969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_7
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 275
+        width: 8
+        height: 104
+      alignment: 9
+      pivot: {x: 0.45942688, y: 0.025501838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363865b44c05f6344beafccdea4c7a7e
+      internalID: -2117697255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_10
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 232
+        width: 110
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08925029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817d540533bebf14a9c010bfb5950a1b
+      internalID: 1363954250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 230
+        width: 114
+        height: 111
+      alignment: 9
+      pivot: {x: 0.4876294, y: 0.13155867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ccf22c1d3f3dd47a8c3967c2853c60
+      internalID: 1050991582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_12
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 236
+        width: 104
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5067796, y: 0.0005396207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e7adfab194b43438c2b474d3d2c3ff
+      internalID: 858464590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_13
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 241
+        width: 92
+        height: 141
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.014917252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b16da86958e194289c3b772d6e5fea
+      internalID: 408605163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_14
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 29
+        width: 151
+        height: 154
+      alignment: 9
+      pivot: {x: 0.50466967, y: 0.29853696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3380485475af4574894c0eb3a07f13f1
+      internalID: 1256014322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 36
+        width: 169
+        height: 149
+      alignment: 9
+      pivot: {x: 0.52086157, y: 0.33436763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9365cd5afd2051544b628960e8d3107c
+      internalID: 1308364928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 39
+        width: 161
+        height: 150
+      alignment: 9
+      pivot: {x: 0.48686114, y: 0.28376302}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe072cb90085ad4299a7e839c5ed63f
+      internalID: 1982301590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_17
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 34
+        width: 123
+        height: 107
+      alignment: 9
+      pivot: {x: 0.50573236, y: 0.0848358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389eabfaee4c9c04fa59ec29b44a7ed4
+      internalID: -137541095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_18
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 34
+        width: 123
+        height: 122
+      alignment: 9
+      pivot: {x: 0.47706914, y: 0.072304115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280511f50c1d8eb47b70d05443d97e69
+      internalID: 1816723541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_5
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 165
+        width: 89
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2a0c50a7e032645aa580fb4ff43533
+      internalID: 1430046051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 820eca2e4f6388942a18ec2dcb6b8670
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_1: 1348363405
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_2: 324422351
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_5: 1430046051
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_17: -137541095
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_10: 1363954250
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_9: -1443336451
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_16: 1982301590
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_18: 1816723541
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_8: 313430586
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_14: 1256014322
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_11: 1050991582
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_3: 1448386098
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_13: 408605163
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_12: 858464590
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_6: -1381760597
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_7: -2117697255
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_0: -505206050
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_4: -248725969
+      kisspng-sprite-google-search-desktop-wallpaper-freem-5b1ff94556b895.6552262015288220853552_15: 1308364928
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
