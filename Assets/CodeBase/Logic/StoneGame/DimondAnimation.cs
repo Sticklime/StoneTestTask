@@ -26,10 +26,5 @@ namespace CodeBase.Logic.StoneGame
                 .OnStepComplete(() => IsEndAnimation = true)
                 .OnComplete(() => _particleSystem.gameObject.SetActive(false));
         }
-
-        public void Update()
-        {
-            Debug.Log(IsEndAnimation);
-        }
-    }
+   }
 }

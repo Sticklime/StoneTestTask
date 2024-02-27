@@ -233,6 +233,7 @@ GameObject:
   - component: {fileID: 302889593}
   - component: {fileID: 302889592}
   - component: {fileID: 302889591}
+  - component: {fileID: 302889596}
   m_Layer: 5
   m_Name: MiniGame_Canvas
   m_TagString: Untagged
@@ -252,6 +253,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864f03b7f4417ba42967416ed3bb97d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _stoneGamePrefab: {fileID: 7365296411960393343, guid: 6235b28015c7cd74aa20df06d0531415, type: 3}
+  _canvas: {fileID: 302889594}
 --- !u!114 &302889592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,17 +284,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &302889594
 Canvas:
   m_ObjectHideFlags: 0
@@ -301,8 +304,8 @@ Canvas:
   m_GameObject: {fileID: 302889590}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 2
+  m_Camera: {fileID: 963194227}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -320,19 +323,31 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 302889590}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1467968044}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.11, y: 4.26}
+  m_SizeDelta: {x: 5.15, y: 5.0583}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &302889596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302889590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881d7488cbb29484ab386de6253c2b2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &487478091
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,6 +584,7 @@ GameObject:
   - component: {fileID: 843026202}
   - component: {fileID: 843026201}
   - component: {fileID: 843026200}
+  - component: {fileID: 843026203}
   m_Layer: 0
   m_Name: Quest Sprite
   m_TagString: Untagged
@@ -603,7 +619,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 881d7488cbb29484ab386de6253c2b2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mainCamera: {fileID: 963194227}
 --- !u!95 &843026201
 Animator:
   serializedVersion: 4
@@ -676,6 +691,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &843026203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843026198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b2b8f94314b98748b78aa35bef3d6fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 843026201}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,8 +757,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 7.55
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -753,14 +781,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.25139168, y: -0.46377313, z: 0.13192865, w: 0.8392328}
-  m_LocalPosition: {x: 20.45, y: 10.73, z: -1.45}
+  m_LocalRotation: {x: 0.12303585, y: -0.45346782, z: 0.06336762, w: 0.8804623}
+  m_LocalPosition: {x: 20.97, y: 15.16, z: -9.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 32.978, y: -58.089, z: -0.802}
+  m_LocalEulerAnglesHint: {x: 15.91, y: -54.5, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -790,7 +818,7 @@ GameObject:
   - component: {fileID: 1467968045}
   - component: {fileID: 1467968046}
   m_Layer: 0
-  m_Name: MiniGame_Stone
+  m_Name: MiniGame_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -856,11 +884,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1467968042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.86, y: 5.73, z: 0.72}
+  m_LocalPosition: {x: 3.29, y: 5.73, z: 0.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 843026199}
+  - {fileID: 302889595}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -889,7 +918,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 775ca24c97def0c4f8aa84a29b6e6258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _miniGame: {fileID: 302889594}
+  _miniGame: {fileID: 302889591}
+  _animationController: {fileID: 843026203}
 --- !u!1 &2060275190
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,8 +980,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060275190}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.00000047683716, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

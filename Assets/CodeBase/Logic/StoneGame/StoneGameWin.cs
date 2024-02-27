@@ -19,7 +19,7 @@ namespace CodeBase.Logic.StoneGame
             _questController = questController;
         }
 
-        public void OnDisable()
+        private void OnDisable()
         {
             if (_winCoroutine != null)
                 StopCoroutine(_winCoroutine);
